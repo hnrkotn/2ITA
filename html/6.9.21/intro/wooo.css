@@ -1,0 +1,16 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+header {
+	font-family: "Comic Sans MS", "Comic Sans", bold;
+	color: red;
+	background-image: url("3310.png");
+}
+body {
+	background-image: url("bill.png");
+	font-family: "Comic Sans MS", "Comic Sans";
+	color: red;
+}
