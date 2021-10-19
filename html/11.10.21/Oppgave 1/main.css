@@ -14,7 +14,7 @@ nav a {
 }
 
 nav a:hover {
-	color: yellow;
+	color: orange;
 }
 
 h1 {
@@ -22,15 +22,18 @@ h1 {
 }
 
 body {
+    background-color: yellow;
     margin: 0%;
 }
 
 main {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
-    height: 10000px;
+    height: 50%;
     margin: auto;
 }
 
@@ -40,8 +43,8 @@ section {
     height: 300px;
     background-color: red;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 1%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
     color: white;
@@ -57,4 +60,35 @@ section {
     text-align: center;
     color: white;
     font-family: 'Trebuchet MS';
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        background-color: yellow;
+    }
+    nav a:hover {
+        color: purple;
+    }
+    body {
+        background-color: blue;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    section {
+        width: 200px;
+        height: 200px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: green;
+    }
+    .footer {
+        background-color: red;
+    }
 }

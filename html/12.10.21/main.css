@@ -1,0 +1,122 @@
+nav {
+	background-color: navy;
+	overflow: hidden;
+    padding-left: 40%;
+}
+nav a {
+	float: left;
+	display: flex;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Trebuchet MS';
+}
+nav a:hover {
+	color: orange;
+}
+h1 {
+    margin: 0%;
+}
+body {
+    margin: 0%;
+}
+.boks1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.ja1 {
+    width: 300px;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS';
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.ja1 p {
+    font-size: small;
+    font-style: italic;
+}
+.boks2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: orange
+}
+.ja2 {
+    width: 300px;
+    text-align: left;
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: large;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.boks3 {
+    width: 100%;
+}
+.ja3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 660px) {
+    nav {
+        background-color: navy;
+        overflow: hidden;
+        padding-left: 0%;
+    }
+    nav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: auto;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Trebuchet MS';
+    }
+    .boks1 {
+        flex-direction: column;
+    }
+    .ja1 {
+        width: 300px;
+        text-align: center;
+        color: black;
+        font-family: 'Trebuchet MS';
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .boks2 {
+        flex-direction: column;
+    }
+    .ja2 {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .ja3 {
+        flex-direction: column;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
